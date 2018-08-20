@@ -1,0 +1,908 @@
+.box12,
+.box13,
+.box14,
+.box15,
+.box16,
+.box17 {
+	/*width: 1090px;*/
+	height: 800px;
+	margin: 0 auto;
+	/*background-color: #cccccc;*/
+}
+
+/*标题*/
+.box12-1,
+.box13-1,
+.box14-1,
+.box15-1,
+.box16-1,
+.box17-1{
+	width: 1090px;
+	height: 110px;
+	/*background-color: orange;*/
+	margin: 0 auto;
+	position: relative;
+}
+.box12-1>p,
+.box13-1>p,
+.box14-1>p,
+.box15-1>p,
+.box16-1>p,
+.box17-1>p {
+	position: absolute;
+}
+.box12-1>p:nth-child(1),
+.box13-1>p:nth-child(1),
+.box14-1>p:nth-child(1),
+.box15-1>p:nth-child(1),
+.box16-1>p:nth-child(1),
+.box17-1>p:nth-child(1) {
+	font-size: 28px;
+	font-weight: 600;
+	left: 3px;
+	top: 55px;
+	line-height: 45px;
+}
+.box12-1>p:nth-child(1) a:hover,
+.box12-1>p:nth-child(2) a span:nth-child(odd):hover,
+.box12-1>p:nth-child(3) a:hover,
+.box13-1>p:nth-child(1) a:hover,
+.box13-1>p:nth-child(2) a span:nth-child(odd):hover,
+.box13-1>p:nth-child(3) a:hover,
+.box14-1>p:nth-child(1) a:hover,
+.box14-1>p:nth-child(2) a span:nth-child(odd):hover,
+.box14-1>p:nth-child(3) a:hover,
+.box15-1>p:nth-child(1) a:hover,
+.box15-1>p:nth-child(2) a span:nth-child(odd):hover,
+.box15-1>p:nth-child(3) a:hover,
+.box16-1>p:nth-child(1) a:hover,
+.box16-1>p:nth-child(2) a span:nth-child(odd):hover,
+.box16-1>p:nth-child(3) a:hover,
+.box17-1>p:nth-child(1) a:hover,
+.box17-1>p:nth-child(2) a span:nth-child(odd):hover,
+.box17-1>p:nth-child(3) a:hover{
+	color: #b4a078;
+}
+.box12-1>p:nth-child(2),
+.box13-1>p:nth-child(2),
+.box16-1>p:nth-child(2),
+.box17-1>p:nth-child(2) {
+	font-size: 14px;
+	left: 490px;
+	top: 65px;
+	line-height: 35px;
+}
+.box14-1>p:nth-child(2),
+.box15-1>p:nth-child(2){
+	left: 410px;
+	top: 65px;
+	line-height: 35px;
+}
+.box12-1>p:nth-child(2) span:nth-child(even),
+.box13-1>p:nth-child(2) span:nth-child(even),
+.box14-1>p:nth-child(2) span:nth-child(even),
+.box15-1>p:nth-child(2) span:nth-child(even),
+.box16-1>p:nth-child(2) span:nth-child(even),
+.box17-1>p:nth-child(2) span:nth-child(even) {
+	/*color: red;*/
+	font-weight: 600;
+	margin: 0 .7em 0 .7em;
+}
+.box12-1>p:nth-child(3),
+.box13-1>p:nth-child(3),
+.box14-1>p:nth-child(3),
+.box15-1>p:nth-child(3),
+.box16-1>p:nth-child(3),
+.box17-1>p:nth-child(3) {
+	left: 1015px;
+	top: 65px;
+	font-size: 14px;
+	line-height: 35px;
+}
+
+
+/*图片部分*/
+.box12-2,
+.box13-2,
+.box14-2,
+.box15-2,
+.box16-2,
+.box17-2{
+	width: 1090px;
+	height: 312px;
+	/*background-color: pink;*/
+	margin: 0 auto;
+}
+
+/*动画效果部分*/
+.box12-3,
+.box13-3,
+.box14-3,
+.box15-3,
+.box16-3,
+.box17-3 {
+	width: 1090px;
+	height: 378px;
+	/*background-color: tan;*/
+	margin: 0 auto;
+}
+.box12-3::after,
+.box13-3::after,
+.box14-3::after,
+.box15-3::after,
+.box16-3::after,
+.box17-3::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.box12-3a>li,
+.box13-3a>li,
+.box14-3a>li,
+.box15-3a>li,
+.box16-3a>li,
+.box17-3a>li {
+	float: left;
+	width: 265px;
+	height: 358px;
+	margin: 20px 10px 0px 0;
+	/*background-color: #336666;*/
+}
+.box12-3a>li:last-child,
+.box13-3a>li:last-child,
+.box14-3a>li:last-child,
+.box15-3a>li:last-child,
+.box16-3a>li:last-child,
+.box17-3a>li:last-child {
+	margin-right: 0;
+}
+.box12-3a>li div:nth-child(1),
+.box13-3a>li div:nth-child(1),
+.box14-3a>li div:nth-child(1),
+.box15-3a>li div:nth-child(1),
+.box16-3a>li div:nth-child(1),
+.box17-3a>li div:nth-child(1) {
+	width: 265px;
+	height: 265px;
+	background-color: #f4f4f4;
+	border-bottom: 1px solid #f4f4f4;
+}
+
+/*-------几色可选----------*/
+
+/*.box12-3a>li:nth-child(1) .box12-3aa,*/
+.box12-3a>li:nth-child(2) .box12-3ba,
+/*.box12-3a>li:nth-child(3) .box12-3ca,*/
+.box12-3a>li:nth-child(4) .box12-3da,
+.box13-3a>li:nth-child(1) .box13-3aa,
+/*.box13-3a>li:nth-child(2) .box13-3ba,*/
+/*.box13-3a>li:nth-child(3) .box13-3ca,*/
+/*.box13-3a>li:nth-child(4) .box13-3da,*/
+/*.box14-3a>li:nth-child(1) .box14-3aa,*/
+.box14-3a>li:nth-child(2) .box14-3ba,
+.box14-3a>li:nth-child(3) .box14-3ca,
+/*.box14-3a>li:nth-child(4) .box14-3da,*/
+.box15-3a>li:nth-child(1) .box15-3aa,
+/*.box15-3a>li:nth-child(2) .box15-3ba,*/
+/*.box15-3a>li:nth-child(3) .box15-3ca,*/
+/*.box15-3a>li:nth-child(4) .box15-3da,*/
+/*.box16-3a>li:nth-child(1) .box16-3aa,*/
+/*.box16-3a>li:nth-child(2) .box16-3ba,*/
+/*.box16-3a>li:nth-child(3) .box16-3ca,*/
+/*.box16-3a>li:nth-child(4) .box16-3da,*/
+/*.box17-3a>li:nth-child(1) .box17-3aa,*/
+.box17-3a>li:nth-child(2) .box17-3ba,
+.box17-3a>li:nth-child(3) .box17-3ca,
+.box17-3a>li:nth-child(4) .box17-3da{
+	position: relative;
+}
+.box12-3a>li:nth-child(1) .box12-3aa span,
+.box12-3a>li:nth-child(2) .box12-3ba span,
+.box12-3a>li:nth-child(3) .box12-3ca span,
+.box12-3a>li:nth-child(4) .box12-3da span,
+.box13-3a>li:nth-child(1) .box13-3aa span,
+/*.box13-3a>li:nth-child(2) .box13-3ba span,*/
+/*.box13-3a>li:nth-child(3) .box13-3ca span,*/
+/*.box13-3a>li:nth-child(4) .box13-3da span,*/
+/*.box14-3a>li:nth-child(1) .box14-3aa span,*/
+.box14-3a>li:nth-child(2) .box14-3ba span,
+.box14-3a>li:nth-child(3) .box14-3ca span,
+/*.box14-3a>li:nth-child(4) .box14-3da span,*/
+.box15-3a>li:nth-child(1) .box15-3aa span,
+/*.box15-3a>li:nth-child(2) .box15-3ba span,*/
+/*.box15-3a>li:nth-child(3) .box15-3ca span,*/
+/*.box15-3a>li:nth-child(4) .box15-3da span,*/
+/*.box16-3a>li:nth-child(1) .box16-3aa span,*/
+/*.box16-3a>li:nth-child(2) .box16-3ba span,*/
+/*.box16-3a>li:nth-child(3) .box16-3ca span,*/
+/*.box16-3a>li:nth-child(4) .box16-3da span,*/
+/*.box17-3a>li:nth-child(1) .box17-3aa span,*/
+.box17-3a>li:nth-child(2) .box17-3ba span,
+.box17-3a>li:nth-child(3) .box17-3ca span,
+.box17-3a>li:nth-child(4) .box17-3da span {
+	position: absolute;
+	border: 1px solid #b4a078;
+	color: #b4a078;
+	margin: .3em;
+	padding: .1em;
+	top: 10px;
+	left: 10px;
+	border-radius: 4px;
+	font-size: 12px;
+}
+
+
+ /*动画效果*/
+.box12-3a > li .box12-3aa,
+.box12-3a > li .box12-3ba,
+.box12-3a > li .box12-3ca,
+.box12-3a > li .box12-3da,
+.box13-3a > li .box13-3aa,
+.box13-3a > li .box13-3ba,
+.box13-3a > li .box13-3ca,
+.box13-3a > li .box13-3da,
+.box14-3a > li .box14-3aa,
+.box14-3a > li .box14-3ba,
+.box14-3a > li .box14-3ca,
+.box14-3a > li .box14-3da,
+.box15-3a > li .box15-3aa,
+.box15-3a > li .box15-3ba,
+.box15-3a > li .box15-3ca,
+.box15-3a > li .box15-3da,
+.box16-3a > li .box16-3aa,
+.box16-3a > li .box16-3ba,
+.box16-3a > li .box16-3ca,
+.box16-3a > li .box16-3da,
+.box17-3a > li .box17-3aa,
+.box17-3a > li .box17-3ba,
+.box17-3a > li .box17-3ca,
+.box17-3a > li .box17-3da {
+		overflow: hidden;
+	}
+.box12-3a > li .box12-3aa a > img,
+.box12-3a > li .box12-3ba a > img,
+.box12-3a > li .box12-3ca a > img,
+.box12-3a > li .box12-3da a > img,
+.box13-3a > li .box13-3aa a > img,
+.box13-3a > li .box13-3ba a > img,
+.box13-3a > li .box13-3ca a > img,
+.box13-3a > li .box13-3da a > img,
+.box14-3a > li .box14-3aa a > img,
+.box14-3a > li .box14-3ba a > img,
+.box14-3a > li .box14-3ca a > img,
+.box14-3a > li .box14-3da a > img,
+.box15-3a > li .box15-3aa a > img,
+.box15-3a > li .box15-3ba a > img,
+.box15-3a > li .box15-3ca a > img,
+.box15-3a > li .box15-3da a > img,
+.box16-3a > li .box16-3aa a > img,
+.box16-3a > li .box16-3ba a > img,
+.box16-3a > li .box16-3ca a > img,
+.box16-3a > li .box16-3da a > img,
+.box17-3a > li .box17-3aa a > img,
+.box17-3a > li .box17-3ba a > img,
+.box17-3a > li .box17-3ca a > img,
+.box17-3a > li .box17-3da a > img  {
+		transition: transform 1s;
+	}
+.box12-3a > li:nth-child(1) .box12-3aa:hover a > img,
+.box12-3a > li:nth-child(2) .box12-3ba:hover a > img,
+.box12-3a > li:nth-child(3) .box12-3ca:hover a > img,
+.box12-3a > li:nth-child(4) .box12-3da:hover a > img,
+.box13-3a > li:nth-child(1) .box13-3aa:hover a > img,
+.box13-3a > li:nth-child(2) .box13-3ba:hover a > img,
+.box13-3a > li:nth-child(3) .box13-3ca:hover a > img,
+.box13-3a > li:nth-child(4) .box13-3da:hover a > img,
+.box14-3a > li:nth-child(1) .box14-3aa:hover a > img,
+.box14-3a > li:nth-child(2) .box14-3ba:hover a > img,
+.box14-3a > li:nth-child(3) .box14-3ca:hover a > img,
+.box14-3a > li:nth-child(4) .box14-3da:hover a > img,
+.box15-3a > li:nth-child(1) .box15-3aa:hover a > img,
+.box15-3a > li:nth-child(2) .box15-3ba:hover a > img,
+.box15-3a > li:nth-child(3) .box15-3ca:hover a > img,
+.box15-3a > li:nth-child(4) .box15-3da:hover a > img,
+.box16-3a > li:nth-child(1) .box16-3aa:hover a > img,
+.box16-3a > li:nth-child(2) .box16-3ba:hover a > img,
+.box16-3a > li:nth-child(3) .box16-3ca:hover a > img,
+.box16-3a > li:nth-child(4) .box16-3da:hover a > img,
+.box17-3a > li:nth-child(1) .box17-3aa:hover a > img,
+.box17-3a > li:nth-child(2) .box17-3ba:hover a > img,
+.box17-3a > li:nth-child(3) .box17-3ca:hover a > img,
+.box17-3a > li:nth-child(4) .box17-3da:hover a > img  {
+		transform: scale(1.1);
+	}
+/*文字部分*/
+.box12-3a>li div:nth-child(2),
+.box13-3a>li div:nth-child(2),
+.box14-3a>li div:nth-child(2),
+.box15-3a>li div:nth-child(2),
+.box16-3a>li div:nth-child(2),
+.box17-3a>li div:nth-child(2) {
+	width: 265px;
+	height: 92px;
+	text-align: center;
+	/*background-color: #f09a9a;*/  /*文字叙述背景*/
+	position: relative;
+}
+.box12-3a>li div:nth-child(2) p,
+.box13-3a>li div:nth-child(2) p,
+.box14-3a>li div:nth-child(2) p,
+.box15-3a>li div:nth-child(2) p,
+.box16-3a>li div:nth-child(2) p,
+.box17-3a>li div:nth-child(2) p{
+	position: absolute;
+	text-align: center;
+}
+.box12-3a>li div:nth-child(2) p>span,
+.box13-3a>li div:nth-child(2) p>span,
+.box14-3a>li div:nth-child(2) p>span,
+.box15-3a>li div:nth-child(2) p>span,
+.box16-3a>li div:nth-child(2) p>span,
+.box17-3a>li div:nth-child(2) p>span {
+	text-align: center;
+}
+/*p的第一个孩子*/
+/*.box12-3a>li .box12-3ab p:nth-child(1),*/
+.box12-3a>li .box12-3bb p:nth-child(1),
+/*.box12-3a>li .box12-3cb p:nth-child(1),*/
+.box12-3a>li .box12-3db p:nth-child(1),
+/*.box13-3a>li .box13-3ab p:nth-child(1),*/
+.box13-3a>li .box13-3bb p:nth-child(1),
+/*.box13-3a>li .box13-3cb p:nth-child(1),*/
+.box13-3a>li .box13-3db p:nth-child(1),
+/*.box14-3a>li .box14-3ab p:nth-child(1),
+.box14-3a>li .box14-3bb p:nth-child(1),
+.box14-3a>li .box14-3cb p:nth-child(1),
+.box14-3a>li .box14-3db p:nth-child(1),*/
+.box15-3a>li .box15-3ab p:nth-child(1),
+/*.box15-3a>li .box15-3bb p:nth-child(1),*/
+/*.box15-3a>li .box15-3cb p:nth-child(1),*/
+/*.box15-3a>li .box15-3db p:nth-child(1),*/
+/*.box16-3a>li .box16-3ab p:nth-child(1),*/
+/*.box16-3a>li .box16-3bb p:nth-child(1),*/
+/*.box16-3a>li .box16-3cb p:nth-child(1),*/
+/*.box16-3a>li .box16-3db p:nth-child(1),*/
+/*.box17-3a>li .box17-3ab p:nth-child(1),*/
+.box17-3a>li .box17-3bb p:nth-child(1)
+/*.box17-3a>li .box17-3cb p:nth-child(1),*/
+/*.box17-3a>li .box17-3db p:nth-child(1)*/ {
+	top: 3px;
+	left: 103px;
+	width: 60px;
+	height: 20px;
+	color: #ffffff;
+	text-align: center;
+	background-color: #e36844;
+}
+.box17-3a>li .box17-3bb p:nth-child(1){
+	background-color: #a39763;
+}
+
+/*p的第二个孩子*/
+.box12-3a>li .box12-3ab p:nth-child(2), 
+.box12-3a>li .box12-3bb p:nth-child(2),
+.box12-3a>li .box12-3cb p:nth-child(2),
+.box12-3a>li .box12-3db p:nth-child(2),
+.box13-3a>li .box13-3ab p:nth-child(2), 
+.box13-3a>li .box13-3bb p:nth-child(2),
+.box13-3a>li .box13-3cb p:nth-child(2),
+.box13-3a>li .box13-3db p:nth-child(2),
+.box14-3a>li .box14-3ab p:nth-child(2), 
+.box14-3a>li .box14-3bb p:nth-child(2),
+.box14-3a>li .box14-3cb p:nth-child(2),
+.box14-3a>li .box14-3db p:nth-child(2),
+.box15-3a>li .box15-3ab p:nth-child(2), 
+.box15-3a>li .box15-3bb p:nth-child(2),
+.box15-3a>li .box15-3cb p:nth-child(2),
+.box15-3a>li .box15-3db p:nth-child(2),
+.box16-3a>li .box16-3ab p:nth-child(2), 
+.box16-3a>li .box16-3bb p:nth-child(2),
+.box16-3a>li .box16-3cb p:nth-child(2),
+.box16-3a>li .box16-3db p:nth-child(2),
+.box17-3a>li .box17-3ab p:nth-child(2), 
+.box17-3a>li .box17-3bb p:nth-child(2),
+.box17-3a>li .box17-3cb p:nth-child(2),
+.box17-3a>li .box17-3db p:nth-child(2){
+	top: 34px;
+	left: 65px;
+	font-weight: 600;
+}
+.box17-3a>li .box17-3ab p:nth-child(2), 
+.box17-3a>li .box17-3bb p:nth-child(2),
+.box17-3a>li .box17-3cb p:nth-child(2),
+.box17-3a>li .box17-3db p:nth-child(2){
+	left: 35px;
+}
+.box12-3a>li .box12-3ab p:nth-child(2) a:hover,
+.box12-3a>li .box12-3bb p:nth-child(2) a:hover,
+.box12-3a>li .box12-3cb p:nth-child(2) a:hover,
+.box12-3a>li .box12-3db p:nth-child(2) a:hover,
+.box13-3a>li .box13-3ab p:nth-child(2) a:hover,
+.box13-3a>li .box13-3bb p:nth-child(2) a:hover,
+.box13-3a>li .box13-3cb p:nth-child(2) a:hover,
+.box13-3a>li .box13-3db p:nth-child(2) a:hover,
+.box14-3a>li .box14-3ab p:nth-child(2) a:hover,
+.box14-3a>li .box14-3bb p:nth-child(2) a:hover,
+.box14-3a>li .box14-3cb p:nth-child(2) a:hover,
+.box14-3a>li .box14-3db p:nth-child(2) a:hover,
+.box15-3a>li .box15-3ab p:nth-child(2) a:hover,
+.box15-3a>li .box15-3bb p:nth-child(2) a:hover,
+.box15-3a>li .box15-3cb p:nth-child(2) a:hover,
+.box15-3a>li .box15-3db p:nth-child(2) a:hover,
+.box16-3a>li .box16-3ab p:nth-child(2) a:hover,
+.box16-3a>li .box16-3bb p:nth-child(2) a:hover,
+.box16-3a>li .box16-3cb p:nth-child(2) a:hover,
+.box16-3a>li .box16-3db p:nth-child(2) a:hover,
+.box17-3a>li .box17-3ab p:nth-child(2) a:hover,
+.box17-3a>li .box17-3bb p:nth-child(2) a:hover,
+.box17-3a>li .box17-3cb p:nth-child(2) a:hover,
+.box17-3a>li .box17-3db p:nth-child(2) a:hover{
+	color: #b4a078;
+}
+.box12-3a>li .box12-3ab p:nth-child(3),
+.box12-3a>li .box12-3bb p:nth-child(3),
+.box12-3a>li .box12-3cb p:nth-child(3),
+.box12-3a>li .box12-3db p:nth-child(3),
+.box13-3a>li .box13-3ab p:nth-child(3),
+.box13-3a>li .box13-3bb p:nth-child(3),
+.box13-3a>li .box13-3cb p:nth-child(3),
+.box13-3a>li .box13-3db p:nth-child(3),
+.box14-3a>li .box14-3ab p:nth-child(3),
+.box14-3a>li .box14-3bb p:nth-child(3),
+.box14-3a>li .box14-3cb p:nth-child(3),
+.box14-3a>li .box14-3db p:nth-child(3),
+.box15-3a>li .box15-3ab p:nth-child(3),
+.box15-3a>li .box15-3bb p:nth-child(3),
+.box15-3a>li .box15-3cb p:nth-child(3),
+.box15-3a>li .box15-3db p:nth-child(3),
+.box16-3a>li .box16-3ab p:nth-child(3),
+.box16-3a>li .box16-3bb p:nth-child(3),
+.box16-3a>li .box16-3cb p:nth-child(3),
+.box16-3a>li .box16-3db p:nth-child(3),
+.box17-3a>li .box17-3ab p:nth-child(3),
+.box17-3a>li .box17-3bb p:nth-child(3),
+.box17-3a>li .box17-3cb p:nth-child(3),
+.box17-3a>li .box17-3db p:nth-child(3){
+		top: 57px;
+		left: 114px;
+		color: #d4282d;
+}
+.box12-3a>li .box12-3ab p:nth-child(3) span:nth-child(1)，
+.box12-3a>li .box12-3bb p:nth-child(3) span:nth-child(1),
+.box12-3a>li .box12-3cb p:nth-child(3) span:nth-child(1)，
+.box12-3a>li .box12-3db p:nth-child(3) span:nth-child(1),
+.box13-3a>li .box13-3ab p:nth-child(3) span:nth-child(1)，
+.box13-3a>li .box13-3bb p:nth-child(3) span:nth-child(1),
+.box13-3a>li .box13-3cb p:nth-child(3) span:nth-child(1)，
+.box13-3a>li .box13-3db p:nth-child(3) span:nth-child(1),
+.box14-3a>li .box14-3ab p:nth-child(3) span:nth-child(1)，
+.box14-3a>li .box14-3bb p:nth-child(3) span:nth-child(1),
+.box14-3a>li .box14-3cb p:nth-child(3) span:nth-child(1)，
+.box14-3a>li .box14-3db p:nth-child(3) span:nth-child(1),
+.box15-3a>li .box15-3ab p:nth-child(3) span:nth-child(1)，
+.box15-3a>li .box15-3bb p:nth-child(3) span:nth-child(1),
+.box15-3a>li .box15-3cb p:nth-child(3) span:nth-child(1)，
+.box15-3a>li .box15-3db p:nth-child(3) span:nth-child(1),
+.box16-3a>li .box16-3ab p:nth-child(3) span:nth-child(1)，
+.box16-3a>li .box16-3bb p:nth-child(3) span:nth-child(1),
+.box16-3a>li .box16-3cb p:nth-child(3) span:nth-child(1)，
+.box16-3a>li .box16-3db p:nth-child(3) span:nth-child(1),
+.box17-3a>li .box17-3ab p:nth-child(3) span:nth-child(1)，
+.box17-3a>li .box17-3bb p:nth-child(3) span:nth-child(1),
+.box17-3a>li .box17-3cb p:nth-child(3) span:nth-child(1)，
+.box17-3a>li .box17-3db p:nth-child(3) span:nth-child(1){
+	color: #d4282d;
+}
+.box12-3a>li .box12-3ab p:nth-child(3) span:nth-child(2),
+.box12-3a>li .box12-3bb p:nth-child(3) span:nth-child(2),
+.box12-3a>li .box12-3cb p:nth-child(3) span:nth-child(2),
+.box12-3a>li .box12-3db p:nth-child(3) span:nth-child(2),
+.box13-3a>li .box13-3ab p:nth-child(3) span:nth-child(2),
+.box13-3a>li .box13-3bb p:nth-child(3) span:nth-child(2),
+.box13-3a>li .box13-3cb p:nth-child(3) span:nth-child(2),
+.box13-3a>li .box13-3db p:nth-child(3) span:nth-child(2),
+.box14-3a>li .box14-3ab p:nth-child(3) span:nth-child(2),
+.box14-3a>li .box14-3bb p:nth-child(3) span:nth-child(2),
+.box14-3a>li .box14-3cb p:nth-child(3) span:nth-child(2),
+.box14-3a>li .box14-3db p:nth-child(3) span:nth-child(2),
+.box15-3a>li .box15-3ab p:nth-child(3) span:nth-child(2),
+.box15-3a>li .box15-3bb p:nth-child(3) span:nth-child(2),
+.box15-3a>li .box15-3cb p:nth-child(3) span:nth-child(2),
+.box15-3a>li .box15-3db p:nth-child(3) span:nth-child(2),
+.box16-3a>li .box16-3ab p:nth-child(3) span:nth-child(2),
+.box16-3a>li .box16-3bb p:nth-child(3) span:nth-child(2),
+.box16-3a>li .box16-3cb p:nth-child(3) span:nth-child(2),
+.box16-3a>li .box16-3db p:nth-child(3) span:nth-child(2),
+.box17-3a>li .box17-3ab p:nth-child(3) span:nth-child(2),
+.box17-3a>li .box17-3bb p:nth-child(3) span:nth-child(2),
+.box17-3a>li .box17-3cb p:nth-child(3) span:nth-child(2),
+.box17-3a>li .box17-3db p:nth-child(3) span:nth-child(2){
+		font-size: 13px;
+		color: #999999;
+		text-decoration: line-through;
+	}
+
+
+/*-- -----甄选家-----------*/
+.box18 {
+	/*width: 1090px;*/
+	height: 580px;
+	margin: 0 auto;
+	/*background-color: pink;*/
+}
+.box18-1 {
+	width: 1090px;
+	height: 110px;
+	/*background-color: orange;*/
+	margin: 0 auto;
+	position: relative;
+}
+.box18-1>p {
+	position: absolute;
+}
+.box18-1>p:nth-child(1) {
+	font-size: 28px;
+	font-weight: 600;
+	left: 3px;
+	top: 55px;
+	line-height: 45px;
+}
+/*.box11-1>p:nth-child(1) a:hover,
+  .box11-1>p:nth-child(2) a:hover,
+  .box11-1>p:nth-child(3) a:hover{
+	color: #b4a078;
+}*/
+.box18-1>p:nth-child(2) {
+	font-size: 14px;
+	left: 105px;
+	top: 65px;
+	line-height: 35px;
+}
+.box18-2 {
+	width: 1090px;
+	height: 380px;
+	margin: 0 auto;
+	/*background-color: #336666;*/
+}
+.box18-2::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.box18-2a > li {
+	float: left;
+}
+.box18-2a > li:nth-child(1) {
+	width: 690px;
+	height: 380px;
+	/*background-color: blue;*/
+}
+.box18-2a > li:nth-child(2){  /*宽390+左边距10 下边距10px*/
+	width: 390px;
+	height: 185px;
+	/*background-color: yellow;*/
+	margin: 0 0 10px 10px;
+}
+.box18-2a > li:nth-child(3) {
+	width: 390px;
+	height: 185px;
+	/*background-color: yellow;*/
+	margin: 0 0 0 10px;
+}
+
+   /*需要注释的颜色#f09a9a*/
+/*     大家都在说模块    */
+
+.box19 {
+	width: 100%;
+	height: 666px;
+	
+	background-color: #f4f1ea;
+}
+.box19-1 {
+	width: 1080px;
+	height: 100px;
+	/*background-color: orange;*/
+	margin: 0 auto;
+	position: relative;
+}
+.box19-1>p {
+	position: absolute;
+}
+.box19-1>p:nth-child(1) {
+	font-size: 28px;
+	font-weight: 600;
+	left: 3px;
+	top: 55px;
+	line-height: 45px;
+}
+.box19-1>p:nth-child(2) {
+	font-size: 14px;
+	left: 175px;
+	top: 65px;
+	line-height: 35px;
+}
+
+.box19-2 {     
+	width: 1080px;
+	height: 500px;
+	margin: 0 auto;
+	/*background-color: #336666;*/
+	position: relative;
+	overflow: hidden;
+}
+.wrapper19{
+	position: absolute;
+	width:2880px;
+	height: 500px;
+	
+	/*background-color: red;*/
+	animation-name: photox;
+	animation-duration: 12s;
+	animation-timing-function: steps(6);
+	animation-iteration-count:infinite;
+	animation-direction: alternate; 
+
+}
+.wrapper19:hover{
+animation-play-state: paused;
+}
+@keyframes photox{
+	0%{
+		left: 0;
+	}
+	100%{
+		left: -2160px;
+	}
+
+}
+.wrapper19>div{
+	width: 360px;
+	height: 500px;
+	float: left;
+	/*background-color: yellow;*/
+}
+
+.wrapper19>div div:last-child{
+    width: 315px;
+	height: 175px;
+	position: relative;
+	top: -50px;
+	left: 15px;
+	background-color: #ffffff;
+	padding: 10px 10px 0 10px;
+}
+.wrapper19>div div:first-child:hover>img{
+	transform: scale(1.2);
+
+}
+.wrapper19>div div:first-child img{
+	transition: transform 1s;
+
+}
+.wrapper19>div div:first-child{
+	overflow: hidden;
+	border: 3px solid #ededed;
+}
+
+.list1{
+	font-size: 14px;
+	color: #999999;
+}
+.list2{
+	font-size: 18px;
+	/*color: red;*/
+	font-weight: 999;
+	line-height: 50px;
+}
+.list3{
+	position: absolute;
+	top: 40px;
+	right: 25px;
+	font-size: 14px;
+	color: #b4a078;
+	font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+/*    尾部模块--------*/
+.box20 {
+	/*width: 1090px;*/
+	height: 300px;
+	margin: 0 auto;
+	/*background-color: #336666;*/
+}
+.box20a {
+	width: 1089px;
+	height: 300px;
+	margin: 0 auto;
+	/*background-color: purple;*/
+}
+/*左面*/
+.box20-1::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.box20a .box20-1 >li {
+	float: left;
+	width: 362px;
+	height: 206px;
+	text-align: center;
+	margin: 47px 0 47px 0;
+	/*background-color: pink;*/
+}
+.box20a .box20-1 > li:nth-child(2),
+.box20a .box20-1 > li:nth-child(3){
+	border-left: 1px solid #cccccc;
+}
+.box20-1aa h3,.box20-2aa h3,.box20-3aa h3 {
+	line-height: 20px;
+}
+.box20-1ab {
+	height: 186px;
+	width: 362px;
+	position: relative;
+	/*background-color: red;*/
+}
+.box20-one {
+	position: absolute;
+	width: 80px;
+	height: 100px;
+	border: 1px solid #999999;
+	margin: 20px 30px 45px 90px;
+	/*background-color: yellow;*/
+}
+.box20-one li a:hover,
+.box20-two li a:hover{
+	color: #b4a078;
+}
+.wow {
+	font-size: 30px;
+	margin: 22px 0 10px 0;
+}
+.box20-two {
+	position: absolute;
+	width: 80px;
+	height: 100px;
+	left: 200px;
+	margin: 20px 90px 45px 0px;
+	border: 1px solid #999999;
+	/*background-color: yellow;*/
+}
+/*中间*/
+.box20-2ab li:nth-child(1) p {
+	margin: 20px 35px 10px 30px;
+	/*position: absolute;*/
+	font-size: 14px;
+}
+.box20-2ab > ul> li img{
+  width: 30px;
+  position: relative;
+  height: 30px;
+  top: 25px;
+   left: -60px;
+   font-size: 12px;
+   color: #a5a5a5;
+}
+.box20-2ab>ul>li a{
+  margin-left: 60px;
+}
+.box20-2ab > ul> li a {
+	top: 25px;
+   left: -60px;
+   position: relative;
+}
+/*导航*/
+/*.box20-2ab li:nth-child(2) {
+	position: relative;
+}
+.box20-2ab li:nth-child(2) .number1 {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	left: 100px;
+	top: 60px;
+	background-color: yellow;
+}
+.box20-2ab li:nth-child(2) .number1 img {
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+}*/
+/*.box20-2ab li:nth-child(2) img:hover .box20-2ab li:nth-child(2) .number1 img{
+	display: block;
+}*/
+
+
+
+.box20-3ab li img {
+	margin-top: 30px;
+}
+.miao {
+	font-size: 12px;
+	color: #b4a078;
+}
+
+/*页脚*/
+.footer {
+	height: 216px; /*206*/
+	width: 100%;
+	margin: 0 auto;
+	background-color: #414141;
+}
+.footer1 {
+	width: 1090px;
+	height: 120px;
+	/*background-color: orange;*/
+	margin: 0 auto;
+}
+.footer1 li {
+	float: left;
+	width: 363px;  /*363*/
+	height: 120px;
+	position: relative;
+	/*background-color: lightblue;*/
+	/*border-right: 1px solid #cccccc;*/
+}
+.footer1 li span {
+	position: absolute;
+	top: 50px;
+	left: 165px;
+}
+.foo {
+	line-height: 30px;
+	color: #ffffff;
+	font-size: 18px;
+}
+.footer2 {
+	width: 1090px;
+	height: 66px;
+	margin: 0 auto;
+	position: relative;
+	/*background-color: red;*/
+}
+.footer2 li {
+	text-align: center;
+}
+.footer2 li:nth-child(1) {
+	width: 1090px;
+	height: 25px;
+	margin-top: 20px;
+	/*margin: 25px 0 0 0;*/
+	/*background-color: blue;*/
+}
+.footer2 li:nth-child(1) span {
+	font-size: 12px;
+	color: #999999;
+}
+.footer2 li:nth-child(1) span:nth-child(even){
+	margin: 0 .3em 0 .3em;
+	font-weight: 500;
+}
+.footer2 li:nth-child(2) {
+	height: 41px;
+	width: 1090px;
+	/*background-color: #336666;*/
+}
+/*.footer2 li:nth-child(1) span {
+	margin: 25px 0 0 0;
+}*/
+.foo2 {
+	font-size: 12px;
+	color: #999999;
+}
+.footer2 img {
+	position: absolute;
+	left: 1000px;
+	top: 6px;
+}
